@@ -1,0 +1,10 @@
+[package]
+name = "life_game_rusty_pyxel"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pyxel-engine = {git = "https://github.com/kitao/pyxel.git", branch = "main"}
+rand = "^0.8.0"
